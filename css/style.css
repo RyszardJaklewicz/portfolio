@@ -1,0 +1,131 @@
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+	
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.div_nadrzedny{
+	margin:0 auto;
+	padding-top:10px;
+	width:1050px;
+	background: url('../images/tlotytul.jpg') 0 0 no-repeat;
+	margin-top:50px;
+	border:0px solid black;
+}
+	
+.tytul_nazwa_wykonanego_serwisu{
+	margin-left:1em;
+	font-size:0.8em;
+	color:#999999;
+	font-weight:bold;
+	font-family:arial;
+}
+
+.div_tytul_nazwa_wykonanego_serwisu{
+	margin-top:-10px;margin-left:15px;
+}
+
+.div_lewy{
+		border:0px solid;
+		floatx:left;
+		margin:0 0 10px 10px;
+		height:200px;
+		display:inline-block;
+}
+	
+.div_prawy{
+		border:0px solid;
+		margin:0 0 0 0px;
+		display:inline-block;
+		font-family:verdana;
+		font-size:0.8em;
+		color:#999999;
+}
+	
+a {color:#999999;}
+	
+@media (min-width: 1100px) {
+	.div_nadrzedny {width:1050px;}
+	.div_lewy {width:30%;}
+	.div_prawy {width:68%;float:right;}
+}
+	
+@media (max-width: 1100px) and (min-width: 1000px) {
+	.div_nadrzedny {width:950px;}
+	.div_lewy {width:35%;}
+	.div_prawy {width:62%;float:right;}
+	.div_tytul_nazwa_wykonanego_serwisu{margin-top:-20px;margin-left:15px;}
+}
+
+@media (max-width: 1000px) and (min-width: 800px) {
+	.div_nadrzedny {width:750px;}
+	.div_lewy {width:40%;}
+	.div_prawy {width:58%;float:right;}
+	.div_tytul_nazwa_wykonanego_serwisu{margin-top:-20px;margin-left:15px;}
+}
+
+@media (max-width: 800px) and (min-width: 500px) {
+	.div_nadrzedny {width:450px;}
+	.div_lewy {width:100%;float:left;}
+	.div_prawy {width:100%;display:inline-block;}
+	.tytul_nazwa_wykonanego_serwisu{font-size:0.8em;}
+	.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%; /* Could be more or less, depending on screen size */
+	}
+	.div_tytul_nazwa_wykonanego_serwisu{margin-top:-20px;margin-left:15px;}
+}
+
+/* Jesli ekran ma 500px lub mniej */
+@media (max-width: 500px) {
+	.div_nadrzedny {width:90%;}
+	.div_lewy {width:100%;float:left;}
+	.div_prawy {width:100%;display:inline-block;}
+	.tytul_nazwa_wykonanego_serwisu{font-size:0.8em;}
+	/* Modal Content/Box */
+	.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+	}
+	.div_tytul_nazwa_wykonanego_serwisu{margin-top:-20px;margin-left:15px;}
+}

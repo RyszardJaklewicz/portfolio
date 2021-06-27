@@ -1,0 +1,77 @@
+
+/* 
+Autor: Ryszard Jaklewicz
+Menu 
+*/
+
+body{   
+    margin:0;    
+	padding: 0;
+}
+
+.title {
+	background: url('../images/tlotytul.jpg') 0 0 no-repeat;
+	height:50px;
+	padding-top:15px;
+	padding-left:10px;
+	font-size:1.0em;
+	color:#999999;
+	font-weight:bold;
+	font-family:arial;
+}
+
+.cell_menu_old {
+    display: inline;
+    position:;
+	padding-left:15px;
+	padding-right:15px;
+	font-family:arial;
+	font-size:0.8em;
+}
+
+.cell_menu {
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:10px;
+	margin-bottom:10px;
+	font-family:arial;
+	font-size:0.8em;
+}
+
+.footer_contener{
+	width:100%;
+	height:210px;
+	background-color:#3a586f;
+	color:white;
+	font-family:arial;
+	font-size:0.7em;
+}
+
+.footer_contener a{
+	color:white;
+	font-family:arial;
+	font-size:1.3em;
+}
+
+.footer_contener1{
+	width:100%;
+	height:50px;
+	background-color:#2f3d48;
+	color:white;
+	font-family:arial;
+	font-size:0.7em;
+}
+
+.title_modal_div{
+	font-size:0.8em;
+	color:#999999;
+	font-weight:bold;
+	font-family:arial;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 0px solid white;
+  padding: 10px;
+}
