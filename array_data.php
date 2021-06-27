@@ -16,6 +16,12 @@ $menu_portfolio = array(
 					'tytul_pozycji_menu'=>'O mnie',
 					'link_pozycji_menu'=>'omnie.php',
 					),
+
+	'menu_12' => array(
+						'show'=>'1',
+						'tytul_pozycji_menu'=>'github.com/RyszardJaklewicz',
+						'link_pozycji_menu'=>'https://github.com/RyszardJaklewicz',
+						),
 					
     'menu_2' => array(
 					'show'=>'1',
@@ -69,6 +75,8 @@ $omnie = array(
 					Wykonywałem również instalacje szablonów CMSa Wordpress, konfiguracje i dostosowanie oraz brałem udział w projekcie tworzenia "wtyczki" do Wordpresa - kalkulator kredytowy.
 					<p></p>
 					Przygotowywałem i prowadziłem szkolenia informatyczne z obsługi oprogramowania (kilkaset godzin przeprowadzonych szkoleń)
+					<p></p>
+					Przykłady skryptów na GitHUB: <a href="https://github.com/RyszardJaklewicz">github.com/RyszardJaklewicz</a>
 					',
 					'link_grafiki'=>'',
 					'link_punkt_trojkatny'=>'pliki_serwisu/zdjecia_artykuly/punkt_trojkatny.gif',
