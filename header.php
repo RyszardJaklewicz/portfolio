@@ -2,19 +2,14 @@
 /**
 	Portfolio Ryszard Jaklewicz
 	Autor: Ryszard Jaklewicz
-	
 	Pobieranie danych z array z pliku array_data.php
 */
-
 ?>
-
 <div class="title"  style="display:block;">
 Ryszard Jaklewicz - portfolio programisty
 </div>
 <p></p>
-
 <?php
-
 foreach ($menu_portfolio as $k => $v) {
 	if($menu_portfolio[$k]['show']=="1"){
 		?>

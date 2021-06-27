@@ -1,9 +1,17 @@
 
 
+najpierw git add .
+potem 
+git commit -m "TRESC commit"
+
 
 git remote rm origin
 
+------------------------------------------------------------------
+
 git remote add origin https://github.com/RyszardJaklewicz/portfolio.git
+
+------------------------------------------------------------------
 
 
 
