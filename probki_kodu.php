@@ -17,14 +17,12 @@ include 'array_data.php';
 	<!--
     <link href="bootstrap-5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 	-->
-	
 </head>
 <body>
 
 <?php
 include 'header.php';
 ?>
-
 <button id="myBtn" style="visibility: hidden;">Open Modal</button>
 <p></p>
 <?php
@@ -41,7 +39,6 @@ if(!empty($probki_kodu[$k]['name_image_big'])){
 */
 $name_image_big = str_replace("_jpg", ".jpg", $probki_kodu[$k]['name_image_big']);
 ?>
-	
 <!-- 
 The Modal 
 W tej wersji div modalny nie jest używany
@@ -102,11 +99,8 @@ Zarządzanie placówkami
 		
 		/**  Istnieje tytul opisu oraz link opisu */
 		if( !empty($probki_kodu[$k]['link_opisu']) && !empty($probki_kodu[$k]['tytul_opisu'])  ){
-			
 			?><a href="<?php print($probki_kodu[$k]['link_opisu']); ?>">
-			
 			<img src="<?php print($probki_kodu[$k]['link_punkt_trojkatny']); ?>" style="border: 0;margin-right:5px;" width="10" height="10" border="0">
-			
 			<?php print($probki_kodu[$k]['tytul_opisu']); ?>
 			</a>
 			<br><br>
@@ -115,10 +109,8 @@ Zarządzanie placówkami
 		
 		/** Istnieje tytul opisu bez linku*/
 		if( empty($probki_kodu[$k]['link_opisu']) && !empty($probki_kodu[$k]['tytul_opisu'])  ){
-			
 			?><img src="<?php print($probki_kodu[$k]['link_punkt_trojkatny']); ?>" style="border: 0;margin-right:5px;" width="10" height="10" border="0"><?php
 			print("<img src=''>".$probki_kodu[$k]['tytul_opisu']."<br><br>");
-			
 		}
 		?>
 	
@@ -665,25 +657,16 @@ class invoices_vatActions extends sfActions
 <?php
 }
 ?>
-
-
-
 </div>
 <p></p>
 <img  src="<?php print($probki_kodu[$k]['link_grafiki']); ?>" border="0" class="image_callisto_all_article">
- 
 </div><!-- END <div class="opis_pod_tytulem" style="margin-left:15px;border:1px solid blue;"> -->
-
 <br>
 </div>
-
 <?php
-
 }
-	
 //END foreach ($probki_kodu as $k => $v) {
 }
-
 include 'footer.php';
 ?>
 </body>
